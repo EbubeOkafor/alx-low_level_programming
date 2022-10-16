@@ -13,5 +13,6 @@ int main(void)
 		putchar(i);
 	for (hex = 'A'; hex <= 'F'; hex++)
 		putchar(hex);
+	putchar('\n');
 	return (0);
 }
