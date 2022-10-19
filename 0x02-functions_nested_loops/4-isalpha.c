@@ -4,7 +4,7 @@
  *Return: returns 1 for alphabets
  *@c- value to pass into the function
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (i >= 'a' && i <= 'z')
 		return (1);
