@@ -2,17 +2,16 @@
 /**
  *_isalpa- tells if a character is an alphabet
  *Return: returns 1 for alphabets
- *and 0 for non alphabets
- *
- *@c- value to be passed into the function
+ *@c- value to pass into the function
  */
 int _isalpha(int c);
 {
-	int c;
+	int i;
 
-	if (c >= 'a' && c <= 'z')
+	c == i;
+	if (i >= 'a' && i <= 'z')
 		return (1);
-	if (c >= 'A' && c <= 'Z')
+	if (i >= 'A' && i <= 'Z')
 		return (1);
 	{
 		return (0);
